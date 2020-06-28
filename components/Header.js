@@ -49,6 +49,7 @@ export default function Header(props) {
           .social-links a {
             display: flex;
             align-items: center;
+            text-decoration: none;
           }
           img {
             width: 30px;

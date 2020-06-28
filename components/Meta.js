@@ -30,7 +30,6 @@ export default function Meta(props) {
                     -moz-osx-font-smoothing: grayscale;
                     }
                     a {
-                    text-decoration: none;
                     color: inherit;
                     transition: opacity 0.2s ease;
                     }
@@ -40,10 +39,8 @@ export default function Meta(props) {
                     text-decoration-color: inherit;
                     }
                     ul {
-                    list-style: none;
                     margin: 0;
                     padding-bottom: 0;
-                    padding-left: 0;
                     padding-right: 0;
                     padding-top: 0;
                     list-style-position: outside;

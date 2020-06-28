@@ -37,10 +37,13 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <h2 className="blog__footer"><a href="https://www.calix.dev" target="_blank">Written By: {frontmatter.author}</a></h2>
+        <h2 className="blog__footer">Written By: <a href="https://www.calix.dev" target="_blank">{frontmatter.author}</a></h2>
       </article>
       <style jsx>
         {`
+          a {
+            text-decoration: underline
+          }
           .blog h1 {
             margin-bottom: 0.7rem;
           }
@@ -103,9 +106,6 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
           }
 
           .blog__footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             padding: 1.5rem 1.25rem;
             width: 100%;
             max-width: 800px;
@@ -113,11 +113,6 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
           }
           .blog__footer h2 {
             margin-bottom: 0;
-          }
-          .blog__footer a {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
           }
           .blog__footer a svg {
             width: 20px;

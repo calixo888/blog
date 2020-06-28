@@ -26,14 +26,14 @@ Some people just don’t like programming, and that’s fine. But, this doesn’
 # How can you escape tutorial hell?
 The part we’ve all been waiting for. There are many things you can do to escape tutorial hell, but these are three things I did to avoid tutorial hell altogether, as well as escape it for anyone trapped in it.
 
-1. Play around with the code
+## Play around with the code
 In the middle of the tutorial and you learn a new function, method, or framework, pause the tutorial. Look at the code you just wrote and tinker with it. Change numeric values, write quick scripts on the side, and modify the code as a whole to see how it changes. This will help you understand the code on a deeper level and the active thinking will help the concept drill deeper into your brain. This is one of the easiest ways you can avoid tutorial hell altogether. This forces you to think on your own and observe the changes that occur when the code is changed.
 
-2. Build milestone projects
+## Build milestone projects
 At the end of each tutorial or at certain milestones within the course, I strongly encourage everyone to build a project or a mini-project using the technology they just learned. It forces you to truly think on your own, think creatively, and solve the problems on your own. Don’t follow a tutorial for this project (that defeats the whole purpose), but instead use what you learned to build something that you can call your own. I can say that some of my best projects were built right after I learned how to use a new framework or tool. It not only helps you learn the concept deeper, but it adds to your portfolio!
 Sometimes, it’s a bit hard to come up with project ideas. If you ever need help coming up with project ideas, please feel free to connect and message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/).
 
-3. Teach someone else
+## Teach someone else
 When you teach someone a certain concept, you need to know it well enough to be able to explain it in your own words. This really gets your brain going, and helps you learn better and faster. I know personally that when I’ve taught others certain concepts and topics, I come out of it understanding it better than if I hadn’t. It’s a really great way to solidify and validate your knowledge of the subject, and will, in turn, help you escape, tutorial hell.
 
 Tutorial hell is not fun. You feel like you don’t know what you’re doing, and you feel powerless to stop it. I hope I provided some insight and helpful advice to those struggling with tutorial hell, and how to escape it. The most important thing to keep in mind when thinking about tutorial hell is to never give up and to really be passionate about what you’re learning. If you don’t care enough about what you’re learning, you’re never going to take the extra effort to understand it.
