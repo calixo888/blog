@@ -1,4 +1,5 @@
 import matter from 'gray-matter'
+import Head from 'next/head'
 import Layout from '../components/Layout'
 import BlogList from '../components/BlogList'
 
@@ -9,6 +10,13 @@ const Index = props => {
       siteTitle={props.title}
       siteDescription={props.description}
     >
+      <Head>
+        <title>Calix Huang - My Journal</title>
+        <meta name="description" content="Welcome to my personal journal! Here, I talk about anything that I've learned, past experiences, or anything that comes to my mind!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta property="og:image" content="/static/preview.jpg" />
+      </Head>
       <section>
         <BlogList allBlogs={props.allBlogs} />
       </section>

@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Head from 'next/head'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 const glob = require('glob')
@@ -11,16 +12,17 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
     return date.toDateString().slice(4)
   }
 
-  /*
-   ** Odd fix to get build to run
-   ** It seems like on first go the props
-   ** are undefined — could be a Next bug?
-   */
-
   if (!frontmatter) return <></>
 
   return (
     <Layout siteTitle={siteTitle}>
+      <Head>
+        <title>Calix Huang - {frontmatter.title}</title>
+        <meta name="description" content={markdownBody.substring(0,160)} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta property="og:image" content={frontmatter.hero_image} />
+      </Head>
       <article className="blog">
         <figure className="blog__hero">
           <img
@@ -35,7 +37,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <h2 className="blog__footer">Written By: {frontmatter.author}</h2>
+        <h2 className="blog__footer"><a href="https://www.calix.dev" target="_blank">Written By: {frontmatter.author}</a></h2>
       </article>
       <style jsx>
         {`
