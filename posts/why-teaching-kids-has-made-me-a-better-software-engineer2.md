@@ -1,6 +1,6 @@
 ---
 author: Calix Huang
-date: '2020-06-28T07:00:00.000Z'
+date: '2020-03-11T07:00:00.000Z'
 hero_image: ../static/teaching-kids.jpeg
 title: 'Why Teaching Kids Has Made Me a Better Software Engineer'
 ---
