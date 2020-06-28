@@ -21,13 +21,13 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <meta name="description" content={markdownBody.substring(0,160)} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <meta property="og:image" content={frontmatter.hero_image} />
+        <meta name="og:image" content={frontmatter.hero_image} />
       </Head>
       <article className="blog">
         <figure className="blog__hero">
           <img
             src={frontmatter.hero_image}
-            alt={`blog_hero_${frontmatter.title}`}
+            alt={`${frontmatter.title}`}
           />
         </figure>
         <div className="blog__info">
