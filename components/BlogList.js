@@ -11,6 +11,11 @@ const BlogList = ({ allBlogs }) => {
     return date.toDateString().slice(4)
   }
 
+  allBlogs = allBlogs.sort(function(a, b) {
+      var dateA = new Date(a.frontmatter.date), dateB = new Date(b.frontmatter.date);
+      return dateB - dateA;
+  });
+
   return (
     <>
       <ul className="list">
