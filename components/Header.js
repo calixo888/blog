@@ -10,7 +10,7 @@ export default function Header(props) {
       >
         <div>
           <Link href="/">
-            <h1>My Personal Journal</h1>
+            <h1>My Personal Blog</h1>
           </Link>
           <h3>By: <a href="https://www.calix.dev" target="_blank">Calix Huang</a></h3>
         </div>
