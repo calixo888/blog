@@ -1,6 +1,15 @@
 import Head from 'next/head'
+import { initGA, logPageView } from '../utils/analytics.js'
 
 export default function Meta(props) {
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
+  });
+  
     return (
         <>
             <Head>

@@ -1,16 +1,7 @@
 import Header from "./Header";
 import Meta from './Meta'
-import { initGA, logPageView } from '../utils/analytics.js'
 
 export default function Layout(props) {
-  useEffect(() => {
-    if (!window.GA_INITIALIZED) {
-      initGA()
-      window.GA_INITIALIZED = true
-    }
-    logPageView()
-  });
-
   return (
     <section
     className={`layout ${
