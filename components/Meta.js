@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import Head from 'next/head'
 import { initGA, logPageView } from '../utils/analytics.js'
 
@@ -9,7 +10,7 @@ export default function Meta(props) {
     }
     logPageView()
   });
-  
+
     return (
         <>
             <Head>
