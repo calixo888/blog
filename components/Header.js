@@ -1,6 +1,16 @@
+import React, { useEffect } from 'react'
 import Link from "next/link";
+import { initGA, logPageView } from '../utils/analytics.js'
 
 export default function Header(props) {
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
+  });
+
   return (
     <header className="header">
       <nav
