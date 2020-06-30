@@ -18,7 +18,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
     <Layout siteTitle={siteTitle}>
       <Head>
         <title>Calix Huang - {frontmatter.title}</title>
-        <meta name="description" content={`${markdownBody.substring(0,155)}...`} />
+        <meta name="description" content={`${markdownBody.split(" ").splice(0, 25).join(" ")}...`} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
         <meta name="og:image" content={frontmatter.hero_image} />

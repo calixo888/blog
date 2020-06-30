@@ -5,7 +5,7 @@ hero_image: ../static/application.jpg
 title: 'Tips For Students Applying As a Software Engineer'
 ---
 
-I've had the privilege of undergoing technical recruiting and conducting interviews for potential software engineers for [Launch Tech LLC](https://www.launchtechllc.com/), which was a very rewarding and fulfilling process, though a bit tedious at times.
+Over the last couple of weeks, I've had the privilege of undergoing technical recruiting and conducting interviews for potential software engineers for [Launch Tech LLC](https://www.launchtechllc.com/), which was a very rewarding and fulfilling process, though a bit tedious at times.
 
 Throughout this process, I've been able to notice a lot of patterns that students, high school students specifically, have when going through the recruiting process, whether it be because of lack of skills, experience, or general knowledge of how to properly act in certain professional situations. Either way, I wanted to share it so that whoever is reading this right now can avoid making the same mistakes!
 
