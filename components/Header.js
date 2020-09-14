@@ -19,7 +19,7 @@ export default function Header(props) {
             <a href="https://www.linkedin.com/in/calix-huang/" target="_blank"><img src="/static/icons/linkedin.svg" /> @calix-huang</a>
           </p>
           <p>
-            <a href="https://www.instagram.com/calix_huang/" target="_blank"><img src="/static/icons/instagram.svg" /> @calix_huang</a>
+            <a href="https://www.instagram.com/calixo888/" target="_blank"><img src="/static/icons/instagram.svg" /> @calixo888</a>
           </p>
           <p>
             <a href="https://github.com/calixo888" target="_blank"><img src="/static/icons/github.svg" /> @calixo888</a>

@@ -37,7 +37,6 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <h2 className="blog__footer">Written By: <a href="https://www.calix.dev" target="_blank">{frontmatter.author}</a></h2>
       </article>
       <style jsx>
         {`
