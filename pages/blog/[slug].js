@@ -1,18 +1,37 @@
 import * as React from 'react'
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
+import axios from 'axios';
 import Head from 'next/head'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 const glob = require('glob')
 
 import Layout from '../../components/Layout'
 
 export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
+  const [views, setViews] = useState(0);
+  const router = useRouter();
+
   function reformatDate(fullDate) {
     const date = new Date(fullDate)
     return date.toDateString().slice(4)
   }
 
   if (!frontmatter) return <></>
+
+  useEffect(() => {
+    const blogAlias = router.asPath.split("/")[2];
+    axios.get("https://calix-api.herokuapp.com/blogs/get-blog/?alias=" + blogAlias).then((response) => {
+      const blog = response.data;
+      setViews(blog.views ? blog.views : 0);
+    });
+
+    // ADD VIEW
+    axios.post("https://calix-api.herokuapp.com/blogs/increment-views", { alias: blogAlias });
+  }, []);
 
   return (
     <Layout siteTitle={siteTitle}>
@@ -33,6 +52,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <div className="blog__info">
           <h1>{frontmatter.title}</h1>
           <h3>{reformatDate(frontmatter.date)}</h3>
+          <span><FontAwesomeIcon icon={faEye} /> {views}</span>
         </div>
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
@@ -72,7 +92,11 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
             margin-bottom: 0.66rem;
           }
           .blog__info h3 {
+            margin-bottom: 5px;
+          }
+          .blog__info span {
             margin-bottom: 0;
+            color: grey;
           }
 
           .blog__body {

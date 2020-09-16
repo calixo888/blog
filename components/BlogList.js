@@ -1,7 +1,13 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 const BlogList = ({ allBlogs }) => {
+  const [blogs, setBlogs] = useState([]);
+
   function truncateSummary(content) {
     return content.split(" ").splice(0, 25).join(" ") + "..."
   }
@@ -11,16 +17,29 @@ const BlogList = ({ allBlogs }) => {
     return date.toDateString().slice(4)
   }
 
-  allBlogs = allBlogs.sort(function(a, b) {
-      var dateA = new Date(a.frontmatter.date), dateB = new Date(b.frontmatter.date);
-      return dateB - dateA;
-  });
+  useEffect(() => {
+    axios.get("https://calix-api.herokuapp.com/blogs/get-blogs").then((response) => {
+      const blogViews = response.data;
+      allBlogs = allBlogs.sort(function(a, b) {
+        var dateA = new Date(a.frontmatter.date), dateB = new Date(b.frontmatter.date);
+        return dateB - dateA;
+      });
+
+      setBlogs(allBlogs.map((allBlog, i) => {
+        const blogViewObj = blogViews.filter(blog => blog.alias == allBlog.slug);
+        console.log({...allBlog, views: blogViewObj[0] ? blogViewObj[0].views : 0 })
+        return {...allBlog, views: blogViewObj[0] ? blogViewObj[0].views : 0 };
+      }));
+    });
+
+    console.log(blogs);
+  }, []);
 
   return (
     <>
       <ul className="list">
-        {allBlogs.length > 1 &&
-          allBlogs.map(post => (
+        {blogs.length > 1 &&
+          blogs.map(post => (
             <Link key={post.slug} href={{ pathname: `/blog/${post.slug}` }}>
               <a>
                 <li>
@@ -32,7 +51,8 @@ const BlogList = ({ allBlogs }) => {
                   </div>
                   <div className="blog__info">
                     <h2>{post.frontmatter.title}</h2>
-                    <h3> {reformatDate(post.frontmatter.date)}</h3>
+                    <h3>{reformatDate(post.frontmatter.date)}</h3>
+                    <span><FontAwesomeIcon icon={faEye} /> {post.views}</span>
                     <p>
                       <ReactMarkdown
                         source={truncateSummary(post.markdownBody)}
@@ -59,6 +79,7 @@ const BlogList = ({ allBlogs }) => {
           }
           a:hover li .blog__info h2,
           a:hover li .blog__info h3,
+          a:hover li .blog__info span,
           a:hover li .blog__info p {
             transform: translateX(10px);
             transition: transform 0.5s ease-out;
@@ -90,6 +111,7 @@ const BlogList = ({ allBlogs }) => {
           }
           .blog__info h2,
           .blog__info h3,
+          .blog__info span,
           .blog__info p {
             transform: translateX(0px);
             transition: transform 0.5s ease-out;
@@ -106,6 +128,11 @@ const BlogList = ({ allBlogs }) => {
             margin-bottom: 0.5rem;
           }
           h3 {
+            margin-bottom: 0.5rem;
+          }
+          span {
+            font-size: 15px;
+            color: grey;
             margin-bottom: 1rem;
           }
           p {
