@@ -12,10 +12,10 @@ const Index = props => {
     >
       <Head>
         <title>Calix Huang - My Blog</title>
-        <meta name="description" content="Welcome to my personal journal! Here, I talk about anything that I've learned, past experiences, or anything that comes to my mind!" />
+        <meta name="description" content="Hey there, I'm Calix! Welcome to my personal blog! I love spreading content about software engineering, programming, entrepreneurship, and lessons I've learned from my past experiences! I'm a self-taught startup engineer, and I'm really excited to share my knowledge with you!" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
-        <meta property="og:image" content="/static/preview.jpg" />
+        <meta property="og:image" content="https://blog.calix.dev/static/preview.png" />
       </Head>
       <section>
         <BlogList allBlogs={props.allBlogs} />
