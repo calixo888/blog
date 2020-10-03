@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-03-25T07:00:00.000Z'
-hero_image: ../static/coding.jpeg
+hero_image: https://blog.calix.dev/static/coding.jpeg
 title: 'Why Syntax Errors Will Make You a Better Software Engineer'
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-05-18T07:00:00.000Z'
-hero_image: ../static/hackathon.jpg
+hero_image: https://blog.calix.dev/static/hackathon.jpg
 title: 'My Thoughts on High School Hackathons'
 ---
 

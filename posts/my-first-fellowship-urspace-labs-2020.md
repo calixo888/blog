@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-09-15T07:00:00.000Z'
-hero_image: ../static/first-fellowship.jpeg
+hero_image: https://blog.calix.dev/static/first-fellowship.jpeg
 title: 'My First Fellowship - urspace labs 2020'
 ---
 

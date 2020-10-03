@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-09-29T07:00:00.000Z'
-hero_image: ../static/tech-nonprofit.jpg
+hero_image: https://blog.calix.dev/static/tech-nonprofit.jpg
 title: '7 Tech Nonprofits that are Changing the World '
 ---
 

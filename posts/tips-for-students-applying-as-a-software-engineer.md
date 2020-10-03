@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-06-29T07:00:00.000Z'
-hero_image: ../static/application.jpg
+hero_image: https://blog.calix.dev/static/application.jpg
 title: 'Tips For Students Applying As a Software Engineer'
 ---
 

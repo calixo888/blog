@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-03-16T07:00:00.000Z'
-hero_image: ../static/freelancing.jpeg
+hero_image: https://blog.calix.dev/static/freelancing.jpeg
 title: 'Freelancing in High School — Should You Do It?'
 ---
 

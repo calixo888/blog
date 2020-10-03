@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-09-18T07:00:00.000Z'
-hero_image: ../static/outsourcing.jpg
+hero_image: https://blog.calix.dev/static/outsourcing.jpg
 title: 'Outsourcing Development Work — Should You Do It?'
 ---
 

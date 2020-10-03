@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-04-27T07:00:00.000Z'
-hero_image: ../static/programming.jpg
+hero_image: https://blog.calix.dev/static/programming.jpg
 title: 'Which Programming Language Should I Learn First?'
 ---
 

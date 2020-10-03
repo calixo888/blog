@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-03-28T07:00:00.000Z'
-hero_image: ../static/tutorial-hell.jpeg
+hero_image: https://blog.calix.dev/static/tutorial-hell.jpeg
 title: 'How To Escape Tutorial Hell'
 ---
 

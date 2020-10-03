@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-10-02T07:00:00.000Z'
-hero_image: ../static/programming-nowadays.jpg
+hero_image: https://blog.calix.dev/static/programming-nowadays.jpg
 title: 'What’s Programming Used For Nowadays?'
 ---
 

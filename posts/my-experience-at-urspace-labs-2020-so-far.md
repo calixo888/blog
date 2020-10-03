@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-07-25T07:00:00.000Z'
-hero_image: ../static/urspace-launchx.jpeg
+hero_image: https://blog.calix.dev/static/urspace-launchx.jpeg
 title: 'My Experience at Urspace Labs 2020 (so far)'
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-09-22T07:00:00.000Z'
-hero_image: ../static/networking.jpg
+hero_image: https://blog.calix.dev/static/networking.jpg
 title: 'The Importance of Networking'
 ---
 
