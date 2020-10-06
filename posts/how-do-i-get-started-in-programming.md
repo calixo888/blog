@@ -5,7 +5,7 @@ hero_image: https://blog.calix.dev/static/programming-beginner.jpg
 title: 'How do I get started in programming?'
 ---
 
-If you take a look at a huge group of different programmers, each person's experience and learning methodology differs from a lot of others significantly.
+If you take a look at a huge group of different programmers, each person's experience and learning methodology differs from a lot of others significantly.       
 
 Some might have taken online classes in their own free time, some of them built foundations through Roblox or similar gaming sites, and some of them  took classes in school.
 
@@ -21,13 +21,16 @@ In an increasingly digitized age, especially with the recent global challenges p
 ## Where can I learn programming?
 There are obvious places to learn like at school or at a bootcamp, but here are some online resources you can use as well:
 
-### Udemy
+**Udemy**  
+
 Udemy is a service offering virtual programming courses on a plethora of languages and skill sets, ranging from 3-50 hours. There is an instructor and a syllabus-style learning environment deemed highly effective by its users. However, it does have a fee. Each course requires an individual payment, but does have a money-back guarantee within 30 days of purchase. If the course does not fit your learning style or isn’t teaching what you expected, there’s no monetary loss.
 
-### Codecademy
+**Codecademy**  
+
 Codecademy, on the other hand, is a self paced resource to begin learning any language for free. There is a catch, though: you can only go so far without switching to a paid membership. If you do not have the means to pay for a coding course, it can still help to build a foundation, and if you do, this may be a great resource for you. However, it does require self-discipline, as the structure of your programming education is completely in your own hands.
 
-### FreeCodeCamp
+**FreeCodeCamp**  
+
 FreeCodeCamp, as opposed to the previous two, is a completely free service. It is not nearly as popular, but does offer a gamut of helpful resources to begin the coding experience.
 
 ## Which technologies serve which purposes?

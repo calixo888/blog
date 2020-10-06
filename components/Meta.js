@@ -173,7 +173,7 @@ export default function Meta(props) {
 
                     h1,
                     h2 {
-                    font-weight: 600;
+                    font-weight: 500;
                     }
 
                     h1 {
@@ -192,7 +192,8 @@ export default function Meta(props) {
                     font-size: 1.2rem;
                     letter-spacing: -0.5px;
                     line-height: 1.1875;
-                    font-weight: bold;
+                    color: #a0a0a0;
+                    font-weight: normal;
                     }
 
                     p {
@@ -219,7 +220,8 @@ export default function Meta(props) {
                             font-size: 1rem;
                             letter-spacing: -0.5px;
                             line-height: 1.1875;
-                            font-weight: bold;
+                            color: #a0a0a0;
+                            font-weight: normal;
                         }
 
                         p {

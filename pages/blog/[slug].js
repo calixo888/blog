@@ -114,7 +114,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
             margin-bottom: 0;
           }
           .blog__body h1 h2 h3 h4 h5 h6 p {
-            font-weight: normal;
+            font-weight: 700;
           }
           .blog__body p {
             color: inherit;
