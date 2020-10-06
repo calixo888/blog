@@ -33,6 +33,10 @@ Codecademy, on the other hand, is a self paced resource to begin learning any la
 
 FreeCodeCamp, as opposed to the previous two, is a completely free service. It is not nearly as popular, but does offer a gamut of helpful resources to begin the coding experience.
 
+**1Academy**  
+
+1Academy is a free online platform that curates the best content from the Internet into engaging courses that anyone can take! 1Academy offers courses in music production, philosiphy, design, etc. But specifically, it has tons of courses on different programming languages, frameworks, and technologies to dip your feet into an take a look! Check it out here: [1academy.org](https://1academy.org) 
+
 ## Which technologies serve which purposes?
 Different programming languages and frameworks help serve different purposes in different applications - here is the breakdown:
 
