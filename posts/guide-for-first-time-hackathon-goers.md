@@ -1,7 +1,7 @@
 ---
 author: Calix Huang
 date: '2020-10-09T07:00:00.000Z'
-hero_image: https://blog.calix.dev/static/hackathon-group.jpeg
+hero_image: https://blog.calix.dev/static/hackathon-group.jpg
 title: 'Guide for First-Time Hackathon Goers'
 ---
 
