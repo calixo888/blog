@@ -13,4 +13,4 @@ Don't get me wrong, I know and have met hugely capable and amazing high school h
 
 Now, I'm not going to start any drama or call anyone out, because I am in no way trying to offend anyone. I'm connected with many hackathon organizers who are very passionate about what they do, and I'd love to get everyone's opinion on this matter, whether you’ve organized a hackathon, competed in one, or never even participated!
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

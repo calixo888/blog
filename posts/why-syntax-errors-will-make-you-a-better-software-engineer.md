@@ -43,4 +43,4 @@ I hope that I did syntax errors justice. Many developers dread them, but we shou
 
 For beginners who are taking an online tutorial or in-person classes, try to fix the error yourself. Try to fix syntax errors on your own before calling a mentor or posting a question on an online forum. It will help you understand your code much better, and will, in turn, help you learn a lot more about programming in general.
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

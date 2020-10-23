@@ -51,4 +51,6 @@ This industry, although not the typical programmer’s avenue, is far from left 
 
 No matter if you identify as a traditional techy, a novice in the world of programming, or even just wondering if you should get into it, programming holds a significant role in society, and it’s definitely worth learning for people in any field.
 
-Written by Elizabeth Field, edited by [Calix Huang](https://www.linkedin.com/in/calix-huang/)
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+
+Written by Elizabeth Field, edited by [Calix Huang](https://www.linkedin.com/in/calix-huang/).

@@ -34,4 +34,4 @@ Generally, a good consensus for outsourcing is that if you need something small 
 
 In conclusion, outsourcing is a great concept. It helps businesses move faster, and helps compensate for technical skill in certain organizations. The decision of whether you decide to outsource development work or not is a decision that will vary between different scenarios.
 
-If you have any questions about outsourcing development, feel free to connect and message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

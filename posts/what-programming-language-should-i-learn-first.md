@@ -15,4 +15,4 @@ Javascript is also a great option. It's easy to learn, it's very popular, and it
 
 Whichever programming language you decide to start on is completely fine, whether it be Python or Javascript or something else. Because chances are, you'll be pivoting sometime in the future. I hope this helped somebody who was confused on where they should start and every single article on this topic out there just said "it depends".
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

@@ -30,4 +30,4 @@ I’ve had my fair share of networking calls that didn’t go the way I was hopi
 
 In the end, I think a good mindset to have when networking is that there’s always something to learn from someone. Everyone is better than you in something, and in that way they can teach you about it and you can learn more. Networking has been able to open doors for me that I would’ve never imagined, and I know many others who’ve boosted their entire careers through networking, and just getting to know other people. It really does tie in with the saying “it’s not what you know, but who you know”. In this context, it’s not just a simple, cliche saying - it’s actually true.
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

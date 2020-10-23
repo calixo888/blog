@@ -28,4 +28,4 @@ Part of the reason why I was able to land a part-time job and a volunteering pos
 It made me realize that I didn’t understand a very crucial concept in JavaScript, and it pushed me to understand it better.
 Whether you were teaching a concept you thought you knew but really didn’t, or a concept you had no idea you didn’t understand, teaching kids can show you that you don’t truly understand what you’re doing, and you still have a lot to learn. This is not just specific to software engineering or computer science, but any field. We are all students, and teaching kids is something that’s helped me develop in my knowledge in ways I could’ve never imagined.
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

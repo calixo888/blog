@@ -40,3 +40,5 @@ I very much have an engineering mindset, where if I’m not building something I
 --------------------------------------------
 
 In the end, I’m so grateful for the opportunity to be a fellow for urspace labs 2020, it was definitely an experience. I got to learn so much, meet so many new and awesome people, and even continued my project on the side from the program! Shoutout to my amazing team from the program: [Nicole Chui](https://www.linkedin.com/in/nicolechui/) (PM), [Jasmine Yee](https://www.linkedin.com/in/jasmine-yee/) (Design), [Rishik Lad](https://www.linkedin.com/in/rlad/) (Engineering), as well as our amazing mentor [Don Morton](https://www.linkedin.com/in/don-morton/)!
+
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

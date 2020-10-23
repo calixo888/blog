@@ -40,4 +40,4 @@ In the end, hackathons are a fun event. You won’t lose anything if you don’t
 ## Last thoughts
 Just be sure to keep in mind that winning or participating in a hackathon is not that big of a deal. Some people like to do it to put something on their resume, but it should be an enjoyable experience. Even though it is considered a competition, the best results come out of it when you don’t treat it as such. Treat it as a fun event to meet new people, learn something new, work on new projects, add to your portfolio, and maybe win something cool :)
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

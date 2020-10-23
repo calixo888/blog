@@ -117,4 +117,4 @@ Though freelancing may seem like a risky business, there’s no harm in trying. 
 
 This was not meant to encourage or discourage anyone from freelancing, but simply to show the reasons why it could be beneficial or detrimental. I simply gathered every reason why freelancing is a good and bad idea and presented it for you to decide.
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

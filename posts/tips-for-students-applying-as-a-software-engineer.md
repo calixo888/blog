@@ -20,4 +20,4 @@ Everyone wants an enthusiastic candidate, but those who are over the top are off
 
 Though this was a bit of a short article and there's definitely a lot of things I could've touched on as well, I think that these are 3 huge reasons why I decided to reject so many applicants, and it can definitely be the deciding factor of you getting an interview opportunity, and possibly a future position at the nonprofit/company you're applying to!
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!

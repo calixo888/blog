@@ -34,4 +34,6 @@ In 1995, 37% of engineers were females. Since then, this number has dropped to a
 
 Looking at all these amazing missions, it’s clear that rapidly advancing technology can be used for so much more than starting enormous corporations and making billions of dollars. With tech becoming so prevalent in the modern day, it’s crucial that we use it not just to convenience ourselves, but also to better society.
 
-Written by Katie Li, edited by [LinkedIn](https://www.linkedin.com/in/calix-huang/)
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+
+Written by Katie Li, edited by [Calix Huang](https://www.linkedin.com/in/calix-huang/).

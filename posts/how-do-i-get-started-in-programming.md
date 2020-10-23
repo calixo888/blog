@@ -35,7 +35,7 @@ FreeCodeCamp, as opposed to the previous two, is a completely free service. It i
 
 **1Academy**  
 
-1Academy is a free online platform that curates the best content from the Internet into engaging courses that anyone can take! 1Academy offers courses in music production, philosophy, design, etc. But specifically, it has tons of courses on different programming languages, frameworks, and technologies to dip your feet into an take a look! Check it out here: [1academy.org](https://1academy.org) 
+1Academy is a free online platform that curates the best content from the Internet into engaging courses that anyone can take! 1Academy offers courses in music production, philosophy, design, etc. But specifically, it has tons of courses on different programming languages, frameworks, and technologies to dip your feet into an take a look! Check it out here: [1academy.org](https://1academy.org)
 
 ## Which technologies serve which purposes?
 Different programming languages and frameworks help serve different purposes in different applications - here is the breakdown:
@@ -83,4 +83,6 @@ Different programming languages and frameworks help serve different purposes in 
 
 In the end, it is up to you to find the language that fits your interests and applications best!
 
-Written by Katie Li, edited by [Calix Huang](https://www.linkedin.com/in/calix-huang/)
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+
+Written by Katie Li, edited by [Calix Huang](https://www.linkedin.com/in/calix-huang/).

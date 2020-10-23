@@ -38,4 +38,4 @@ When you teach someone a certain concept, you need to know it well enough to be 
 
 Tutorial hell is not fun. You feel like you don’t know what you’re doing, and you feel powerless to stop it. I hope I provided some insight and helpful advice to those struggling with tutorial hell, and how to escape it. The most important thing to keep in mind when thinking about tutorial hell is to never give up and to really be passionate about what you’re learning. If you don’t care enough about what you’re learning, you’re never going to take the extra effort to understand it.
 
-If you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
+I'm currently building [1Academy](https://1academy.org), so if you have any questions, feel free to message me on [LinkedIn](https://www.linkedin.com/in/calix-huang/)!
