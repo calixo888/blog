@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import ScaleLoader from "react-spinners/ScaleLoader";
+import { css } from "@emotion/core";
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -27,18 +29,15 @@ const BlogList = ({ allBlogs }) => {
 
       setBlogs(allBlogs.map((allBlog, i) => {
         const blogViewObj = blogViews.filter(blog => blog.alias == allBlog.slug);
-        console.log({...allBlog, views: blogViewObj[0] ? blogViewObj[0].views : 0 })
         return {...allBlog, views: blogViewObj[0] ? blogViewObj[0].views : 0 };
       }));
     });
-
-    console.log(blogs);
   }, []);
 
   return (
     <>
       <ul className="list">
-        {blogs.length > 1 &&
+        {blogs.length > 1 ?
           blogs.map(post => (
             <Link key={post.slug} href={{ pathname: `/blog/${post.slug}` }}>
               <a>
@@ -62,10 +61,21 @@ const BlogList = ({ allBlogs }) => {
                 </li>
               </a>
             </Link>
-          ))}
+          ))
+          :
+          <div style={{ textAlign: "center", height: "95vh", display: "flex", alignItems: "center" }}>
+            <ScaleLoader css={css`
+                display: block;
+                margin: 0 auto;
+              `} color="#072740" size={150} />
+          </div>
+        }
       </ul>
       <style jsx>
         {`
+          .loader {
+            margin: auto;
+          }
           a {
             text-decoration: none;
           }
