@@ -29,7 +29,7 @@ export default function Header(props) {
           </p>
         </div>
         <div className="copyright">
-          <p>&copy; 2020 <a href="https://www.calix.dev" target="_blank">Calix Huang</a>. All rights reserved.</p>
+          <p>&copy; 2021 <a href="https://www.calix.dev" target="_blank">Calix Huang</a>. All rights reserved.</p>
           <small>Starter repository by <a href="https://github.com/kendallstrautman" target="_blank">@kendallstrautman</a></small>
         </div>
       </nav>
