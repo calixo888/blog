@@ -25,11 +25,11 @@ But just recently, I’ve noticed how shallow all of this is. Let me explain.
 
 I was lucky enough to record a podcast episode a couple days before this post was published, and it was great! I loved the podcast, the host was super nice, welcoming, and easy to talk to, and we got to talk about my new projects and ideas.
 
-But, just a couple of hours after finishing the recording, I saw on the pocast’s Instagram story that they were already promoting the next 2 guests that would record their episode just 2 days after mine.
+But, just a couple of hours after finishing the recording, I saw on the podcast’s Instagram story that they were already promoting the next 2 guests that would record their episode just 2 days after mine.
 
-Then it hit me: I’m not that special. I don’t want to call anyone a liar, but I definitely was made to feel more special than I actually was. Not to downplay my or anyone else’s achievements, because it didn’t matter. Though every podcast is different, their goal is always to garner an audience, and sometimes that process is reliant on the hunger for attention from relatively successful people. This principle is the same for every media outlet, whether it be a podcast, a newspaper, an event, or an article publication.
+Then it hit me: I’m not that special. Though every podcast is different, their goal is always to garner an audience, and sometimes that process is reliant on the hunger for attention from relatively successful people. This principle is the same for every media outlet, whether it be a podcast, a newspaper, an event, or an article publication.
 
-So what did I learn from all of this? **You’re not special.**
+So what did I learn from all of this? **I'm not that special.**
 
 Haha I’m kidding! Sorta.
 
