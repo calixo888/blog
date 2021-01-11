@@ -11,7 +11,7 @@ const Index = props => {
       siteDescription={props.description}
     >
       <Head>
-        <title>Calix Huang - My Blog</title>
+        <title>Calix Huang | Blog</title>
         <meta name="description" content="Hey there, I'm Calix! Welcome to my personal blog! I love spreading content about software engineering, programming, entrepreneurship, and lessons I've learned from my past experiences! I'm a self-taught startup engineer, and I'm really excited to share my knowledge with you!" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
